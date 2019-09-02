@@ -20,29 +20,35 @@ body{
   padding:0 20px;
 }
 
+.container{
+  padding: 35px;
+}
+
 .avatar{
-  transform: translate(0px, 60px);
+  transform: translate(0px, 120px);
   vertical-align: middle;
   height: 200px;
   border-radius: 25%;
-  padding:35px;
+  padding: 8px;
+  border:1px solid #AAAAAA;
+
 }
 
 .s-m{
-  padding:35px;
-  transform: translate(0px, 60px)
+  padding:45px;
+  transform: translate(0px, 120px)
 }
 
 .s-m a{
   display: inline-flex;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   background: #FFFFFF;
   color: black;
   margin: 0 25px;
   border-radius: 50%;
   transition: 0.4s;
-  font-size: 60px;
+  font-size: 70px;
 }
 
 .s-m a i{
