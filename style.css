@@ -1,52 +1,25 @@
-*{
-  margin:0;
-  padding:0;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://kit.fontawesome.com/0964837cf1.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title> Welcome. </title>
+  </head>
 
-body{
-  font-family: 'Oxygen', sans-serif;
-}
-
-#showcase{
-  background-image:url('https://i.imgur.com/GDmH7nt.jpg');
-  background-size:cover;
-  background-position:center;
-  height:100vh;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  padding:0 20px;
-}
-
-.avatar{
-  vertical-align: middle;
-  height: 200px;
-  border-radius: 25%;
-  padding:35px;
-}
-
-.s-m{
-  padding:35px;
-}
-
-.s-m a{
-  display: inline-flex;
-  width: 60px;
-  height: 60px;
-  background: #FFFFFF;
-  color: black;
-  margin: 0 25px;
-  border-radius: 50%;
-  transition: 0.4s;
-  font-size: 60px;
-}
-
-.s-m a i{
-  transition: 0.4s all;
-}
-
-.s-m a:hover > i{
-  transform: scale(1.2) rotate(25deg)
-}
+  <body>
+    <header id="showcase">
+      <p style="font-size:36px;transform: translate(0px, 60px);">Cameron Porteous</p>
+      <p style="font-size:16px;transform: translate(0px, 60px);">University of Waterloo '19 &#8226 BMath</p>
+      <img src="https://i.imgur.com/Rz9vGzr.png" alt="Avatar" class="avatar">
+      <p style="font-size:16px;transform: translate(0px, 60px);">Leveraging math and statistics with computation to<br>solve problems, find patterns, and tell stories.</p>
+      <div class="s-m">
+        <a href="https://www.github.com/cjporteo"><i class="fab fa-github-square"></i></a>
+        <a href="https://www.linkedin.com/in/cjporteo"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.medium.com/@cjporteo"><i class="fab fa-medium"></i></a>
+        <a href="#"><i class="fas fa-file-pdf"></i></a>
+      </div>
+    </header>
+  </body>
+</html>
