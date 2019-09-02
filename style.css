@@ -1,0 +1,52 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Oxygen', sans-serif;
+}
+
+#showcase{
+  background-image:url('https://i.imgur.com/GDmH7nt.jpg');
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+}
+
+.avatar{
+  vertical-align: middle;
+  height: 200px;
+  border-radius: 25%;
+  padding:35px;
+}
+
+.s-m{
+  padding:35px;
+}
+
+.s-m a{
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  background: #FFFFFF;
+  color: black;
+  margin: 0 25px;
+  border-radius: 50%;
+  transition: 0.4s;
+  font-size: 60px;
+}
+
+.s-m a i{
+  transition: 0.4s all;
+}
+
+.s-m a:hover > i{
+  transform: scale(1.2) rotate(25deg)
+}
