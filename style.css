@@ -5,7 +5,7 @@
 
 body{
   font-family: 'Roboto-thin', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   color: white;
 }
 
@@ -25,7 +25,7 @@ body{
 }
 
 .avatar{
-  transform: translate(0px, 100px);
+  transform: translate(0px, 75px);
   vertical-align: middle;
   height: 200px;
   border-radius: 25%;
@@ -36,7 +36,7 @@ body{
 
 .s-m{
   padding:45px;
-  transform: translate(0px, 100px)
+  transform: translate(0px, 75px)
 }
 
 .s-m a{
