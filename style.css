@@ -12,7 +12,8 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 100vh;
+  height: 100vh;
+  min-width: 100%;
 }
 
 .big{
