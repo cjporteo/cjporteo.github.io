@@ -4,29 +4,27 @@
 }
 
 body{
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
   color: white;
+  font-weight: 400;
 }
 
 #showcase{
-  background-image: url("./background.jpg");
+  background:url("./background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-position: center;
   height: 100vh;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  text-align:center;
 }
 
 .big{
   font-size:56px;
-  font-weight: 400;
 }
 
 .small{
-  font-size:18px;
+  font-size:20px;
+  font-weight: 300;
 }
 
 .stuff{
