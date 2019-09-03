@@ -3,19 +3,26 @@
   padding:0;
 }
 
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body{
   font-family: 'Roboto', sans-serif;
   color: white;
   font-weight: 400;
 }
 
-#showcase{
-  background:url("./background.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+.bg{
+  background-image: url("background.jpg");
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
 }
 
 .big{
