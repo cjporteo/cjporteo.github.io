@@ -17,11 +17,17 @@ body{
 }
 
 .big{
-  font-size:56px;
+  font-size:92px;
+  transform: translate(-5px, 10px);
 }
 
-.small{
-  font-size:20px;
+.school{
+  font-size:32px;
+  font-weight: 300;
+}
+
+.blurb{
+  font-size:24px;
   font-weight: 300;
 }
 
@@ -30,9 +36,8 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  text-align: left;
+
 }
 
 .container{
@@ -48,14 +53,15 @@ body{
 }
 
 .s-m{
-  padding:45px;
-  width: 1000px;
+  padding:55px;
+  width:800px;
+  transform: translate(-70px, 0px);
 }
 
 .s-m a{
   display: inline-flex;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   background: #000000;
   color: white;
   justify-content: center;
@@ -63,11 +69,11 @@ body{
   margin: 0 20px;
   border-radius: 50%;
   transition: 0.4s;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .s-m a:hover{
-  background: #222222;
+  background: #6A97BB;
 }
 
 .s-m a i{
@@ -75,5 +81,5 @@ body{
 }
 
 .s-m a:hover > i{
-  transform: scale(1.2) rotate(25deg)
+  transform: scale(1.3) rotate(20deg)
 }
