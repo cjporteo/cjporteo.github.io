@@ -10,7 +10,7 @@ body{
 }
 
 #showcase{
-  background-image:url('https://i.imgur.com/ynXS25D.jpg');
+  background-image:url('https://i.imgur.com/F5od6y3.jpg');
   background-size:cover;
   background-position:center;
   height:100vh;
@@ -20,13 +20,30 @@ body{
   text-align:center;
 }
 
+.big{
+  font-size:56px;
+  font-weight: 400;
+}
+
+.small{
+  font-size:18px;
+}
+
+.stuff{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .container{
   padding: 35px;
 }
 
 .avatar{
-  transform: translate(0px, 75px);
-  vertical-align: middle;
   height: 200px;
   border-radius: 25%;
   padding: 8px;
@@ -36,21 +53,21 @@ body{
 
 .s-m{
   padding:45px;
-  transform: translate(0px, 75px)
+  width: 1000px;
 }
 
 .s-m a{
   display: inline-flex;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   background: #000000;
   color: white;
   justify-content: center;
   align-items: center;
-  margin: 0 25px;
+  margin: 0 20px;
   border-radius: 50%;
   transition: 0.4s;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .s-m a:hover{
