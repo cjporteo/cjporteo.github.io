@@ -7,7 +7,7 @@ body{
   font-family: 'Roboto', sans-serif;
   color: white;
   font-weight: 400;
-  background: url(californiabackground.jpeg) no-repeat center center fixed; 
+  background: url(mountainbackground.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -72,7 +72,7 @@ body{
 }
 
 .s-m a:hover{
-  background: #e08d3c;
+  background: #483d8b;
 }
 
 .s-m a i{
