@@ -35,12 +35,9 @@ body{
 }
 
 .blurb{
+  padding-top: 50px;
   font-size:24px;
   font-weight: 300;
-}
-
-.container{
-  padding: 35px;
 }
 
 .avatar{
@@ -48,11 +45,11 @@ body{
   border-radius: 25%;
   padding: 8px;
   border: 2px solid #FFFFFF;
-
 }
 
 .s-m{
   padding:55px;
+  padding-bottom: 0px;
   width:800px;
   transform: translate(-70px, 0px);
 }
@@ -65,10 +62,25 @@ body{
   color: white;
   justify-content: center;
   align-items: center;
-  margin: 0 15px;
+  margin: 15px;
   border-radius: 50%;
   transition: 0.3s;
   font-size: 50px;
+}
+
+.labels{
+  padding-left: 55px;
+  padding-right: 55px;
+  width:800px;
+  transform: translate(-70px, -18px);
+}
+
+.labels p{
+  display: inline-flex;
+  width: 80px;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 .s-m a:hover{
