@@ -30,19 +30,19 @@ body{
 }
 
 .big{
-  font-size:90px;
+  font-size: 90px;
   transform: translate(-8px, 0px);
   
 }
 
 .school{
-  font-size:32px;
+  font-size: 32px;
   font-weight: 300;
 }
 
 .blurb{
   padding-top: 75px;
-  font-size:24px;
+  font-size: 24px;
   font-weight: 300;
 }
 
