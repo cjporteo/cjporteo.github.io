@@ -16,6 +16,10 @@ body{
   min-width: 100%;
 }
 
+.text{
+  margin-left: 28px;
+}
+
 .stuff{
   position: absolute;
   top: 50%;
@@ -26,7 +30,8 @@ body{
 
 .big{
   font-size:92px;
-  transform: translate(-5px, 10px);
+  transform: translate(-8px, 0px);
+  
 }
 
 .school{
@@ -48,11 +53,7 @@ body{
 }
 
 .s-m{
-  padding:55px;
-  padding-bottom: 0px;
   padding-top: 70px;
-  width:800px;
-  transform: translate(-83px, 0px);
 }
 
 .s-m a{
@@ -71,10 +72,6 @@ body{
 
 .labels{
   padding-top: 10px;
-  padding-left: 55px;
-  padding-right: 55px;
-  width:800px;
-  transform: translate(-83px, 0px);
 }
 
 .labels p{
@@ -84,7 +81,6 @@ body{
   margin-left: 25px;
   margin-right: 25px;
   justify-content: center;
-  align-items: center;
 }
 
 .s-m a:hover{
